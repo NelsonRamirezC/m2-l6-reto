@@ -14,6 +14,14 @@ let producto2 = {
     "urlImagen": "https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg"
 }
 
+let producto3 = {
+    "id": 3,
+    "nombre": "Producto 3",
+    "descripcion": "Descripción producto 3.",
+    "precio": 8000,
+    "urlImagen": "https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg"
+}
 
-const listaProductos = [producto1, producto2];
+
+const listaProductos = [producto1, producto2, producto3];
 

@@ -20,6 +20,7 @@ if(id){
         $("#producto-precio").text(precio);
 
         $("#producto-imagen").attr("src", urlImagen);
+        $("#producto-imagen").attr("alt", nombre);
 
         
     }else{
