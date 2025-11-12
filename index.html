@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>   
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M2 - L6 - RETO</title>
-    
+
     <!-- INICIO HOJAS DE ESTILO -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -17,9 +19,13 @@
 
     <!-- INICIO SCRIPTS -->
 
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script defer src="./assets/js/productos.js"></script>
 
@@ -29,14 +35,55 @@
     <!-- FIN SCRIPTS -->
 
 </head>
+
 <body>
-    
+
 
     <header>
         <h1 class="text-center py-3">RETO M2 - L2</h1>
     </header>
 
+    <main class="container">
 
-    
+        <section id="seccion-productos">
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
+                <div class="col">
+                    <!-- INICIO TARJETA -->
+                    <div class="card w-100">
+                        <img src="https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg" class="card-img-top ratio ratio-4x3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="/detalle-producto.html?id=1" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                    <!-- FIN TARJETA -->
+                </div>
+
+                <div class="col">
+                    <!-- INICIO TARJETA -->
+                    <div class="card w-100">
+                        <img src="https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg" class="card-img-top ratio ratio-4x3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Producto 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card’s content.</p>
+                            <a href="/detalle-producto.html?id=2" class="btn btn-primary">Ver detalles</a>
+                        </div>
+                    </div>
+                    <!-- FIN TARJETA -->
+                </div>
+                
+            </div>
+
+        </section>
+
+    </main>
+
+
+
 </body>
+
 </html>
